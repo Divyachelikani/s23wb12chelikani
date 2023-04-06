@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= title
+    -
+     let biscuits  = [{"Name": "saltBiscuit", "FlavourType": "salt", "Price": "50",}, { "Name": "cream", "FlavourType": "Cream", "Price": "30",}, {"Name": "sweet", "FlavourType": "sweet", "Price": "29",},]
+    div(class= "container-fluid")
+        div(class = "row")  
+            each item, index in biscuits 
+                div(class= "col-sm-2") Biscuit_Name:  #{item.Name}
+                div(class= "col-sm-2") FlavourType:  #{item.FlavourType}
+                div(class= "col-sm-2") Price:   #{item.Price}
