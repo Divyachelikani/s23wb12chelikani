@@ -3,7 +3,7 @@ good commit
 <br>
 https://s23wb12chelikani.onrender.com <br>
 
-Class:Biscuit <br>
+Class:biscuit <br>
 
 Attributes : Name, FlavourType,Price.
 
